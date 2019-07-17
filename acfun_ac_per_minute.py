@@ -5,7 +5,7 @@ import csv
 import os
 
 path = os.path.abspath(os.path.join(
-    os.getcwd(), '..', 'csv', 'test'))
+    os.getcwd(), '..', 'csv'))
 acid = 100000000
 per_minute = 10
 
@@ -38,9 +38,9 @@ def main():
             # 到达设定时间，结束内循环
             if now.minute % per_minute == 0:
                 break
-            # 不到时间就等60秒之后再次检测
+            # 不到时间就等20秒之后再次检测
             time.sleep(20)
-        # 做正事，一天做一次
+        # 做正事
         doSth()
         time.sleep(60)
 
