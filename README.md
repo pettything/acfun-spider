@@ -16,4 +16,4 @@
 
 ## 类型
 
-- 稿件[播放,评论,,,弹幕,收藏,投蕉,]数量: acfun_ac_per_minute.py
+- 稿件[播放,评论,,,弹幕,收藏,投蕉,]数量: src/acfun_ac_per_minute.py
