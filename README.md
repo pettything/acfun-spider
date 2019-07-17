@@ -11,7 +11,7 @@
 1. 直接下载ZIP文件或使用GIT下载文件
 2. 在文件目录下运行cmd(Windows)或terminal(Linux)
 3. 安装requirements.txt依赖 `pip install -r requirements.txt`
-4. 运行py文件 `python xxxx.py`
+4. 在src目录下运行py文件 `python xxxx.py`
 5. 生成的.csv文件保存在csv文件夹中
 
 ## 类型
