@@ -8,7 +8,7 @@ import csv
 import os
 
 path = os.path.abspath(os.path.join(
-    os.getcwd(), '..', 'csv'))
+    os.getcwd(),'csv'))
 acid = 100000000
 per_minute = 10
 
@@ -39,7 +39,7 @@ def main():
         while True:
             now = datetime.datetime.now()
             # 到达设定时间，结束内循环
-            if now.minute % per_minute == 0:
+            if now.minute % int(per_minute) == 0:
                 break
             # 不到时间就等20秒之后再次检测
             time.sleep(20)
