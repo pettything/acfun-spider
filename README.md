@@ -12,3 +12,7 @@
 2. 在文件目录下运行cmd(Windows)或terminal(Linux)
 3. 安装requirements.txt依赖 `pip install -r requirements.txt`
 4. 运行py文件 `python xxxx.py`
+
+## 类型
+
+- 稿件播放收藏投蕉等参数: acfun_ac_per_minute.py
