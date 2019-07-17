@@ -15,4 +15,4 @@
 
 ## 类型
 
-- 稿件播放收藏投蕉等参数: acfun_ac_per_minute.py
+- 稿件[播放,评论,,,弹幕,收藏,投蕉,]数量: acfun_ac_per_minute.py
